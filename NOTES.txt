@@ -1,0 +1,5 @@
+
+The .so file need to be in a lication that the target app has access to.
+If app has permission to read external storage then the .so can be placed into /sdcard/..., if not then it need to be placed in the apps private directory: /data/data/<package name>
+
+:)
